@@ -1,0 +1,14 @@
+{
+  "city": "Beijing",
+  "tz": "Asia/Shanghai",
+  "n_users_total": 56,
+  "n_users_valid": 0,
+  "q": {},
+  "S_unc": {},
+  "S_rand": {},
+  "Pi_max": {},
+  "Rg_km": {},
+  "R": {},
+  "figure": null,
+  "note": "No valid users after filtering; skipped entropy/predictability, Rg, and figures."
+}
