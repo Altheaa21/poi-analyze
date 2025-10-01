@@ -1,0 +1,17 @@
+city: "New York City"
+tz: "America/New_York"
+data_path: "data/New-york/train-00000-of-00001.parquet"
+
+# filter threshold
+q_threshold: 0.8
+min_points: 5
+
+# plot smooth
+smooth_method: "rolling"
+rolling_hours_window: 6
+bin_hours: 2                 # Bucket merging is more stable; if you need hourly level, change it back to 1
+min_active_users_per_hour: 4 # If the threshold is too high, the whole section will be NaN, you can try adjusting it to 4~10
+rg_bins: 12
+c_rolling_bins_window: 2
+
+out_dir: "reports"
