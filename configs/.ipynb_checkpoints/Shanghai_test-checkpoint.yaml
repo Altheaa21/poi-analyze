@@ -1,0 +1,15 @@
+city: "Shanghai"
+tz: "Asia/Shanghai"
+data_path: "data/Shanghai/test-00000-of-00001.parquet"
+
+q_threshold: 0.8
+min_points: 5
+
+smooth_method: "rolling"
+rolling_hours_window: 6
+bin_hours: 2
+min_active_users_per_hour: 4
+rg_bins: 12
+c_rolling_bins_window: 2
+
+out_dir: "reports_test"
